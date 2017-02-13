@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA9F124C1E526EA400F33502 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9F124B1E526EA400F33502 /* RatingControl.swift */; };
 		FAFA60FF1E50CD0800D63795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA60FE1E50CD0800D63795 /* AppDelegate.swift */; };
 		FAFA61011E50CD0800D63795 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFA61001E50CD0800D63795 /* ViewController.swift */; };
 		FAFA61041E50CD0800D63795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFA61021E50CD0800D63795 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA9F124B1E526EA400F33502 /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 		FAFA60FB1E50CD0800D63795 /* FoodTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAFA60FE1E50CD0800D63795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAFA61001E50CD0800D63795 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				FAFA60FE1E50CD0800D63795 /* AppDelegate.swift */,
+				FA9F124B1E526EA400F33502 /* RatingControl.swift */,
 				FAFA61001E50CD0800D63795 /* ViewController.swift */,
 				FAFA61021E50CD0800D63795 /* Main.storyboard */,
 				FAFA61051E50CD0800D63795 /* Assets.xcassets */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAFA61011E50CD0800D63795 /* ViewController.swift in Sources */,
+				FA9F124C1E526EA400F33502 /* RatingControl.swift in Sources */,
 				FAFA60FF1E50CD0800D63795 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +416,7 @@
 				FAFA611A1E50CD0800D63795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FAFA611B1E50CD0800D63795 /* Build configuration list for PBXNativeTarget "FoodTrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +425,7 @@
 				FAFA611D1E50CD0800D63795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
